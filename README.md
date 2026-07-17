@@ -196,12 +196,7 @@ Warmly,
 
 Danish Hanif
 GlowSkincare Team
----
-
----
-
-## 3. Demo Video
-
+3. Demo Video
 Since this project requires a live walkthrough, a short screen-recording demo showing the repository layout and demonstrating how variables function within the template has been recorded.
 
-👉 <a href="https://www.linkedin.com/posts/danish-hanif-5839583bb_promptengineering-aiautomation-neurofivesolutions-ugcPost-7483943615459684353-UBc5/" target="_blank"><b>Click Here to Watch the Video Walkthrough on LinkedIn</b></a>
+👉 Click Here to Watch the Video Walkthrough on LinkedIn

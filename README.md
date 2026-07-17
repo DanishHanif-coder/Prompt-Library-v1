@@ -8,7 +8,7 @@ Welcome to the **Prompt Library v1**. This repository contains a reusable, produ
 
 This is the foundational framework. The placeholders wrapped in `{{variable_name}}` represent the inputs that change based on each individual support ticket.
 
-```text
+<pre><code>
 [ROLE]
 You are an expert Customer Support Specialist for {{Company_Name}}, known for being {{Tone}} and highly efficient.
 
@@ -29,25 +29,23 @@ Draft a complete response to the customer that addresses their issue completely,
 - Do not make up facts or promises outside of the stated policy.
 - Keep the response under {{Word_Count}} words.
 - Use placeholders like [Customer Name] or [Agent Name] where specific names are needed.
-2. Tested Prompts & AI Outputs (5 Test Cases)
-Case 1: Delayed Shipping (Angry Customer)
-Variables:
+</code></pre>
 
-{{Company_Name}}: SwiftCart Electronics
+---
 
-{{Tone}}: Empathetic and reassuring
+## 2. Tested Prompts & AI Outputs (5 Test Cases)
 
-{{Customer_Issue}}: Order #1042 is 5 days late; tracking hasn't updated.
+### Case 1: Delayed Shipping (Angry Customer)
+**Variables:**
+* `{{Company_Name}}`: SwiftCart Electronics
+* `{{Tone}}`: Empathetic and reassuring
+* `{{Customer_Issue}}`: Order #1042 is 5 days late; tracking hasn't updated.
+* `{{Customer_Mood}}`: Extremely frustrated and angry
+* `{{Company_Policy}}`: Apologize, offer a $10 refund on shipping, check internal tracker.
+* `{{Word_Count}}`: 150 words
 
-{{Customer_Mood}}: Extremely frustrated and angry
-
-{{Company_Policy}}: Apologize, offer a $10 refund on shipping, check internal tracker.
-
-{{Word_Count}}: 150 words
-
-AI Generated Output:
-
-Plaintext
+**AI Generated Output:**
+<pre><code>
 Subject: Update regarding your SwiftCart Order #1042
 
 Dear Ali Khan,
@@ -62,24 +60,21 @@ Best regards,
 
 Danish Hanif
 SwiftCart Support Team
-Case 2: Wrong Item Received (Disappointed Customer)
-Variables:
+</code></pre>
 
-{{Company_Name}}: Threads Clothing Co.
+---
 
-{{Tone}}: Apologetic and action-oriented
+### Case 2: Wrong Item Received (Disappointed Customer)
+**Variables:**
+* `{{Company_Name}}`: Threads Clothing Co.
+* `{{Tone}}`: Apologetic and action-oriented
+* `{{Customer_Issue}}`: Ordered a medium blue jacket, received a small red sweater.
+* `{{Customer_Mood}}`: Disappointed but polite
+* `{{Company_Policy}}`: Send a prepaid return label, ship the correct jacket immediately at no extra cost.
+* `{{Word_Count}}`: 150 words
 
-{{Customer_Issue}}: Ordered a medium blue jacket, received a small red sweater.
-
-{{Customer_Mood}}: Disappointed but polite
-
-{{Company_Policy}}: Send a prepaid return label, ship the correct jacket immediately at no extra cost.
-
-{{Word_Count}}: 150 words
-
-AI Generated Output:
-
-Plaintext
+**AI Generated Output:**
+<pre><code>
 Subject: Resolving your recent Threads Clothing Co. order
 
 Hi Aisha Fatima,
@@ -98,24 +93,21 @@ Warmly,
 
 Danish Hanif
 Threads Clothing Co.
-Case 3: Feature Request (Hopeful Tech User)
-Variables:
+</code></pre>
 
-{{Company_Name}}: TaskFlow SaaS
+---
 
-{{Tone}}: Enthusiastic, polite, and appreciative
+### Case 3: Feature Request (Hopeful Tech User)
+**Variables:**
+* `{{Company_Name}}`: TaskFlow SaaS
+* `{{Tone}}`: Enthusiastic, polite, and appreciative
+* `{{Customer_Issue}}`: Asking if TaskFlow can add a dark mode feature.
+* `{{Customer_Mood}}`: Excited, loves the app but wants this feature
+* `{{Company_Policy}}`: Thank them, explain it's in our Q4 roadmap, and add them to the beta notification list.
+* `{{Word_Count}}`: 120 words
 
-{{Customer_Issue}}: Asking if TaskFlow can add a dark mode feature.
-
-{{Customer_Mood}}: Excited, loves the app but wants this feature
-
-{{Company_Policy}}: Thank them, explain it's in our Q4 roadmap, and add them to the beta notification list.
-
-{{Word_Count}}: 120 words
-
-AI Generated Output:
-
-Plaintext
+**AI Generated Output:**
+<pre><code>
 Subject: Great news about Dark Mode in TaskFlow!
 
 Hi Bilal Raza,
@@ -130,24 +122,21 @@ Cheers,
 
 Danish Hanif
 TaskFlow Team
-Case 4: Subscription Cancellation (Neutral Customer)
-Variables:
+</code></pre>
 
-{{Company_Name}}: FitLife App
+---
 
-{{Tone}}: Respectful, brief, and helpful
+### Case 4: Subscription Cancellation (Neutral Customer)
+**Variables:**
+* `{{Company_Name}}`: FitLife App
+* `{{Tone}}`: Respectful, brief, and helpful
+* `{{Customer_Issue}}`: Wants to cancel subscription because they don't have time to work out.
+* `{{Customer_Mood}}`: Neutral/indifferent
+* `{{Company_Policy}}`: Process cancellation immediately, confirm no further charges, mention they can reactivate anytime.
+* `{{Word_Count}}`: 100 words
 
-{{Customer_Issue}}: Wants to cancel subscription because they don't have time to work out.
-
-{{Customer_Mood}}: Neutral/indifferent
-
-{{Company_Policy}}: Process cancellation immediately, confirm no further charges, mention they can reactivate anytime.
-
-{{Word_Count}}: 100 words
-
-AI Generated Output:
-
-Plaintext
+**AI Generated Output:**
+<pre><code>
 Subject: Confirmation of your FitLife subscription cancellation
 
 Hello Maryam Shah,
@@ -162,24 +151,21 @@ Best,
 
 Danish Hanif
 FitLife Support
-Case 5: Out of Stock Inquiry (Eager Customer)
-Variables:
+</code></pre>
 
-{{Company_Name}}: GlowSkincare
+---
 
-{{Tone}}: Informative, warm, and helpful
+### Case 5: Out of Stock Inquiry (Eager Customer)
+**Variables:**
+* `{{Company_Name}}`: GlowSkincare
+* `{{Tone}}`: Informative, warm, and helpful
+* `{{Customer_Issue}}`: Vitamin C Serum is out of stock; wants to know when it's coming back.
+* `{{Customer_Mood}}`: Curious and eager to buy
+* `{{Company_Policy}}`: Inform them restock is in 2 weeks, offer a 10% discount code for the wait, give link to "notify me" page.
+* `{{Word_Count}}`: 130 words
 
-{{Customer_Issue}}: Vitamin C Serum is out of stock; wants to know when it's coming back.
-
-{{Customer_Mood}}: Curious and eager to buy
-
-{{Company_Policy}}: Inform them restock is in 2 weeks, offer a 10% discount code for the wait, give link to "notify me" page.
-
-{{Word_Count}}: 130 words
-
-AI Generated Output:
-
-Plaintext
+**AI Generated Output:**
+<pre><code>
 Subject: Vitamin C Serum Restock Update!
 
 Hi Sana Imran,
@@ -196,10 +182,12 @@ Warmly,
 
 Danish Hanif
 GlowSkincare Team
+</code></pre>
+
 ---
 
 ## 3. Demo Video
 
 Since this project requires a live walkthrough, a short screen-recording demo showing the repository layout and demonstrating how variables function within the template has been recorded.
 
-[Click Here to Watch the Video Walkthrough on LinkedIn ](https://www.linkedin.com/posts/danish-hanif-5839583bb_promptengineering-aiautomation-neurofivesolutions-ugcPost-7483942777282637824-OHcX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGZ6ajMBNDJWRNIInsosvdqlP4Mh3ICMuDU)
+👉 **[Click Here to Watch the Video Walkthrough on LinkedIn](https://www.linkedin.com/posts/danish-hanif-5839583bb_promptengineering-aiautomation-neurofivesolutions-ugcPost-7483943615459684353-UBc5/)**

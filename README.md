@@ -199,4 +199,4 @@ GlowSkincare Team
 3. Demo Video
 Since this project requires a live walkthrough, a short, silent screen-recording demo showing the repository layout and demonstrating how variables function within the template has been recorded.
 
-👉 [Click Here to Watch the Demo Video](https://www.linkedin.com/posts/danish-hanif-5839583bb_promptengineering-aiautomation-neurofivesolutions-ugcPost-7483943615459684353-UBc5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGZ6ajMBNDJWRNIInsosvdqlP4Mh3ICMuDU)
+👉 [https://www.linkedin.com/posts/danish-hanif-5839583bb_promptengineering-aiautomation-neurofivesolutions-ugcPost-7483943615459684353-UBc5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGZ6ajMBNDJWRNIInsosvdqlP4Mh3ICMuDU]

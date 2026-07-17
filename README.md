@@ -46,6 +46,8 @@ Variables:
 {{Word_Count}}: 150 words
 
 AI Generated Output:
+
+Plaintext
 Subject: Update regarding your SwiftCart Order #1042
 
 Dear Ali Khan,
@@ -59,9 +61,7 @@ Thank you for your patience as we get this sorted out for you.
 Best regards,
 
 Danish Hanif
-
 SwiftCart Support Team
-
 Case 2: Wrong Item Received (Disappointed Customer)
 Variables:
 
@@ -78,6 +78,8 @@ Variables:
 {{Word_Count}}: 150 words
 
 AI Generated Output:
+
+Plaintext
 Subject: Resolving your recent Threads Clothing Co. order
 
 Hi Aisha Fatima,
@@ -95,9 +97,7 @@ Thank you for being so understanding!
 Warmly,
 
 Danish Hanif
-
 Threads Clothing Co.
-
 Case 3: Feature Request (Hopeful Tech User)
 Variables:
 
@@ -114,6 +114,8 @@ Variables:
 {{Word_Count}}: 120 words
 
 AI Generated Output:
+
+Plaintext
 Subject: Great news about Dark Mode in TaskFlow!
 
 Hi Bilal Raza,
@@ -127,9 +129,7 @@ Thanks for helping us make TaskFlow better!
 Cheers,
 
 Danish Hanif
-
 TaskFlow Team
-
 Case 4: Subscription Cancellation (Neutral Customer)
 Variables:
 
@@ -146,6 +146,8 @@ Variables:
 {{Word_Count}}: 100 words
 
 AI Generated Output:
+
+Plaintext
 Subject: Confirmation of your FitLife subscription cancellation
 
 Hello Maryam Shah,
@@ -159,9 +161,7 @@ We wish you all the best on your fitness journey!
 Best,
 
 Danish Hanif
-
 FitLife Support
-
 Case 5: Out of Stock Inquiry (Eager Customer)
 Variables:
 
@@ -178,6 +178,8 @@ Variables:
 {{Word_Count}}: 130 words
 
 AI Generated Output:
+
+Plaintext
 Subject: Vitamin C Serum Restock Update!
 
 Hi Sana Imran,
@@ -193,10 +195,8 @@ Have a glowing day!
 Warmly,
 
 Danish Hanif
-
 GlowSkincare Team
-
 3. Demo Video
-Since this project requires a live walkthrough, a short, silent screen-recording demo showing the repository layout and demonstrating how variables function within the template has been recorded.
+Since this project requires a live walkthrough, a short screen-recording demo showing the repository layout and demonstrating how variables function within the template has been recorded.
 
-👉 **[Click Here to Watch the Video Walkthrough on LinkedIn](https://www.linkedin.com/posts/danish-hanif-5839583bb_promptengineering-aiautomation-neurofivesolutions-ugcPost-7483943615459684353-UBc5/)**
+👉 Click Here to Watch the Video Walkthrough on LinkedIn
